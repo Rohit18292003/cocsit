@@ -15,7 +15,8 @@
     * { 
       box-sizing: border-box;
       margin: 0;
-      padding: 0;
+      padding: 0px 10px 0px 5px;
+
     }
 
     h2 {
@@ -25,22 +26,14 @@
       font-weight: bold;
     }
 
-    .bcs-section {
-      background-color: blueviolet;
-      padding: 12px;
-
-    }
+  
 
     .bcs-section .SemName {
       color: blueviolet;
       font-weight: 600;
     }
 
-    .bca-section {
-      background-color: rgb(235, 23, 203);
-      padding: 12px;
-
-    }
+    
 
     .bca-section .SemName {
       color: rgb(235, 23, 203);
@@ -61,21 +54,25 @@
     }
 
     body {
+      background-repeat: no-repeat;
       background: rgb(107,179,255);
-background: linear-gradient(90deg, rgba(107,179,255,1) 0%, rgba(129,191,255,1) 6%, rgba(255,184,102,1) 53%, rgba(93,48,255,1) 100%);
     }
 
-    section {
-      height: 50px;
-      color: blue;
-
-    }
    .advertise-banner:hover{
     height: 262px;
     width: 82%;
     margin: auto;
    }
+
+  
+
  @media (max-width:450px){
+  .bcs-section{
+    width: 500px;
+  }
+  .bca-section{
+    width: 500px;
+  }
   .advertise-banner{
     height: 50;
     width: 450px;
@@ -86,15 +83,13 @@ background: linear-gradient(90deg, rgba(107,179,255,1) 0%, rgba(129,191,255,1) 6
   </style>
 </head>
 
-<body oncontextmenu="return false">
+<!-- <body oncontextmenu="return false"> -->
+  <body>
   <div class="container-fluid p-5 bg-primary text-white text-center">
     <h1>COCSIT Latur </h1>
     <p>CBCS / revised Pattern</p> 
   </div>  
-  <section>
 
-
-  </section>
   <div class="row">
     <div class="col-sm-3"></div>
     <div class="col-sm-3"><button class="button-29" role="button" href="#bcs-call"><span class="text"><a
@@ -111,7 +106,7 @@ background: linear-gradient(90deg, rgba(107,179,255,1) 0%, rgba(129,191,255,1) 6
 
 
   <h2 id="bcs-call" style="margin-top: 30px;">Bachelor Of Computer Science </h2>
-  <div class="bcs-section">
+  <div  class="bcs-section">
     <table class="table">
       <thead>
         <tr>
